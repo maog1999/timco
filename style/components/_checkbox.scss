@@ -1,0 +1,13 @@
+//Variables
+$boxes-fontsize: 16px;
+
+.cboxForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    cursor: pointer;
+    font-size: $boxes-fontsize;
+}

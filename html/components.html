@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components</title>
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/index.scss">
+</head>
+<body>
+    <h1>checkbox</h1>
+    <form action="skillsForm" class="cboxForm">
+        <label for="cbox">
+            <input type="checkbox" class="boxP" name="cbox" id="cbox" value="first_checkbox">Diseño UX/UI
+        </label>
+    </form>
+
+    <!------------------------------------------------->
+
+    <h1>Inputs</h1>
+    <form id="loginForm" class="form">
+        <label for="email">Email</label> <br>
+        <input class="input" placeholder="Email" type="text" id="email" required name="email">
+    </form>
+
+    <form action="payment">
+        <label for="paySelection">Selecciona tu cuenta</label> <br>
+        <select name="payAccount" id="payAccount">
+            <option value="default">Seleccione una opción</option>
+            <option value="nequi">NEQUI</option>
+            <option value="daviplata">DAVIPLATA</option>
+        </select>
+    </form>
+
+    <!------------------------------------------------->
+
+
+    <h1>Btns</h1>
+    <a href="#">Iniciar sesión</a>
+    <a href="#">Fill</a>
+    <a href="#">Stroke</a>
+    <a href="#">Continuar</a>
+
+    <!------------------------------------------------->
+
+    <h1>Info btns</h1>
+    <form action="timeSelection">
+        <input type="radio" name="time1" id="time1">
+        <label for="time1">Proyectos cortos con tiempo variable</label>
+    </form>
+
+    <form action="careerSelection">
+        <label for="design">
+            <input type="checkbox" id="design" name="design" value="first_checkbox"><img src="" alt="design-icon">Diseño UX/UI
+        </label>
+    </form>
+
+    <!------------------------------------------------->
+
+    <h1>Job offer cards</h1>
+    <a href="#">
+        <div>
+            <img src="" alt="company-logo">
+            <p>Procter & Gamble</p>
+        </div>
+        <div>
+            <h3>Diseño de interfaces</h3>
+            <div>
+                <div>
+                    <img src="" alt="money-icon">
+                    <p>$400.000</p>
+                </div>
+                <div>
+                    <img src="" alt="time-icon">
+                    <p>2 semanas</p>
+                </div>
+                <a href="#">Aplicar</a>
+            </div>
+        </div>
+    </a>
+
+    <!----------------------------------------->
+
+    <h1>Profile things</h1>
+    <div>
+        <div>
+            <img src="" alt="user-image">
+        </div>
+        <div>
+            <h1>Alejandro Valverde</h1>
+            <h4>Diseño de interfaces</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie arcu orci egestas vehicula. Nec cursus aliquam fermentum gravida dui porta semper sem. Faucibus varius enim amet ut sed mattis</p>
+        </div>
+        <div>
+            <div>
+                <h4>Valor del proyecto</h4>
+                <div>
+                    <img src="" alt="money-icon">
+                    <p>$400.000</p>
+                </div>
+            </div>
+            <div>
+                <h4>Fecha de entrega</h4>
+                <div>
+                    <img src="" alt="time-icon">
+                    <p>2 semanas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- left menu -->
+    <div>
+        <img src="" alt="timco-logo">
+        <div>
+            <img src="" alt="user-image">
+            <p>Alejandro Valverde</p>
+            <span>Diseño UX/UI</span>
+        </div>
+        <div>
+            <div>
+                <a href="#">
+                    <img src="" alt="home-icon">
+                    <h4>Inicio</h4>
+                </a>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div>
+            <a href="#">
+                <img src="" alt="logout-icon">
+                <h4>Cerrar sesión</h4>
+            </a>
+        </div>
+    </div>
+
+    
+</body>
+</html>

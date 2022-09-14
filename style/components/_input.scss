@@ -1,0 +1,18 @@
+//Variables
+$input-fontsize: 16px;
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: $input-fontsize;
+    color: blue;
+}
+.input{
+    font-size: 14px;
+    padding: 8px;
+    width: 320px;
+    height: 40px;
+}
